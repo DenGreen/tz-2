@@ -1,0 +1,31 @@
+.box {
+  margin: 30px;
+}
+
+.btn__start,
+.btn__stop {
+  width: 70px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 2px 1px 1px rgba(99, 99, 99, 0.233);
+}
+
+.btn__start {
+  background-color: rgb(240, 255, 244);
+}
+
+.btn__start:hover {
+  background-color: rgb(230, 247, 235);
+}
+
+.btn__stop {
+  margin-left: 10px;
+  background-color: rgb(255, 240, 242);
+}
+
+.btn__stop:hover {
+  background-color: rgb(252, 234, 236);
+}
